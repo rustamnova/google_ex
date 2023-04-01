@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Bitcoin Price",
+  "version": "1.0",
+  "description": "Displays current Bitcoin price.",
+  "icons": {
+    "16": "bitcoin_16.png",
+    "48": "bitcoin_48.png",
+    "128": "bitcoin_128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "bitcoin_16.png",
+      "48": "bitcoin_48.png",
+      "128": "bitcoin_128.png"
+    },
+    "default_title": "Bitcoin Price",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://api.coindesk.com/"
+  ]
+}
